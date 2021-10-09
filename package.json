@@ -9,8 +9,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node . --no-deprecation",
-    "dev": "node . --no-deprecation"
+    "start": "node --no-deprecation ./bot.js",
+    "dev": "nodemon --no-deprecation ./bot.js"
   },
   "author": "Reddstone35",
   "license": "ISC"
