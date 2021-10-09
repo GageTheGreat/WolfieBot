@@ -1,0 +1,17 @@
+{
+  "name": "discord.bot.hab1b1",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node . --no-deprecation",
+    "dev": "node . --no-deprecation"
+  },
+  "author": "Reddstone35",
+  "license": "ISC"
+}
